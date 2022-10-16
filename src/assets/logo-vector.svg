@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="44.476944mm"
+   height="9.1700182mm"
+   viewBox="0 0 44.476944 9.1700182"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="logo-vector.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="119.07707"
+     inkscape:cy="-77.067356"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-text-baseline="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-164.09114,-113.62231)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot10"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="scale(0.26458333)"><flowRegion
+         id="flowRegion12"><rect
+           id="rect14"
+           width="308.57144"
+           height="208.57143"
+           x="200"
+           y="348.23398" /></flowRegion><flowPara
+         id="flowPara16" /></flowRoot>    <g
+       id="g859"
+       transform="matrix(0.28461688,0,0,0.28461688,133.29706,84.563519)">
+      <text
+         transform="scale(1.0401616,0.96138908)"
+         id="text20-9-5-6"
+         y="136.25462"
+         x="156.67191"
+         style="font-style:normal;font-weight:normal;font-size:38.4726944px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:1;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:0.96181738"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.47206116px;font-family:MingLiU-ExtB;-inkscape-font-specification:MingLiU-ExtB;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#aa0000;fill-opacity:1;stroke-width:0.96181738"
+           y="136.25462"
+           x="156.67191"
+           id="tspan18-0-1-6"
+           sodipodi:role="line">雲</tspan></text>
+      <flowRoot
+         transform="matrix(0.40771413,0,0,0.40771413,39.223627,-163.69971)"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#aa0000;fill-opacity:1;stroke:none"
+         id="flowRoot36-9-0-1"
+         xml:space="preserve"><flowRegion
+           style="fill:#aa0000;fill-opacity:1"
+           id="flowRegion38-5-4-4"><rect
+             style="fill:#aa0000;fill-opacity:1"
+             y="661.89014"
+             x="165.66502"
+             height="57.646908"
+             width="399.41821"
+             id="rect40-6-7-3" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48.45442963px;font-family:Carlito;-inkscape-font-specification:Carlito;fill:#aa0000;fill-opacity:1"
+           id="flowPara42-8-7-1">NIHON         HOTELS </flowPara></flowRoot>    </g>
+  </g>
+</svg>

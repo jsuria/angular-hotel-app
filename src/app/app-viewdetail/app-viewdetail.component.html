@@ -1,0 +1,140 @@
+<div class="container-fluid d-flex flex-wrap justify-content-center">
+
+    <div class="col-12 col-lg-4">
+
+      <!-- DISPLAY CAROUSEL FOR MULTIPLE PHOTOS -->
+
+      <div class="img-container pb-2">
+        <img
+          class="w-100 h-50 h-lg-100 img-fluid rounded"
+          src="{{ hotelImage }}"
+          alt="Card image cap">
+      </div>
+
+      <div class="w-100 h-75 pt-2" *ngIf="mapLoaded">
+
+        <google-map
+            width="100%"
+            height="450px"
+            [center]="mapCenter"
+            [zoom]="mapZoom"
+            [zoom-control]="false"
+            [gesture-handling]="'none'"
+        >
+            <map-marker
+                #marker="mapMarker"
+                *ngFor="let markerPosition of mapMarkerPositions"
+                [position]="markerPosition"
+                [options]="mapMarkerOptions"
+                (mapClick)="openInfoWindow(marker)"
+                >
+            </map-marker>
+        </google-map>
+      </div>
+
+
+
+    </div>
+
+    <div class="col-12 col-lg-8">
+
+      <h5 class="card-title py-3 font-weight-bold">{{ hotelName }}</h5>
+
+      <div class="card mb-3">
+
+          <div class="card-body">
+
+            <dl class="row" style="margin: 7px;">
+
+              <dt class="col-sm-3 py-2">Phone</dt>
+              <dd class="col-sm-9 py-2">{{ hotelPhone }}</dd>
+
+              <dt class="col-sm-3 py-2">Fax</dt>
+              <dd class="col-sm-9 py-2">{{ hotelFax }}</dd>
+
+              <dt class="col-sm-3 py-2">Address</dt>
+              <dd class="col-sm-9 py-2">{{ hotelCompleteAddress }}</dd>
+
+              <dt class="col-sm-3 py-2">Homepage</dt>
+              <dd class="col-sm-9 py-2"> <a href="{{ hotelWebpage }}" class="card-link">Rakuten Travel page</a></dd>
+
+            </dl>
+
+              <ul class="nav nav-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link active"
+                        id="home-tab"
+                        data-toggle="tab"
+                        href="#information" role="tab"
+                        aria-controls="information"
+                        aria-selected="true">Information</a>
+                  </li>
+
+
+                  <li class="nav-item">
+                    <a class="nav-link"
+                        id="photos-tab"
+                        data-toggle="tab"
+                        href="#photos" role="tab"
+                        aria-controls="photos"
+                        aria-selected="false">Photos</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link"
+                        id="location-tab"
+                        data-toggle="tab"
+                        href="#location" role="tab"
+                        aria-controls="location"
+                        aria-selected="false">Location</a>
+                  </li>
+              </ul>
+
+              <div class="tab-content" style="margin: 20px;">
+
+                  <div
+                      class="tab-pane active"
+                      id="information"
+                      role="tabpanel"
+                      aria-labelledby="information-tab">
+
+                      <dl class="row">
+                        <dt class="col-sm-3 p-3">Hotel Specials</dt>
+                        <dd class="col-sm-9 p-3">{{ hotelSpecial }}</dd>
+
+                        <dt class="col-sm-3 p-3">Access</dt>
+                        <dd class="col-sm-9 p-3">{{ hotelAccess }}</dd>
+
+                        <dt class="col-sm-3 p-3">Parking</dt>
+                        <dd class="col-sm-9 p-3">{{ hotelParking }}</dd>
+
+                        <dt class="col-sm-3 p-3">Nearest Station</dt>
+                        <dd class="col-sm-9 p-3">{{ hotelNearestStation }}</dd>
+
+                      </dl>
+                  </div>
+
+                  <div
+                      class="tab-pane"
+                      id="photos"
+                      role="tabpanel"
+                      aria-labelledby="photos-tab">
+                      Photos here
+                  </div>
+
+                  <div
+                      class="tab-pane"
+                      id="location"
+                      role="tabpanel"
+                      aria-labelledby="location-tab">
+                      Location here
+                  </div>
+
+              </div>
+          </div>
+
+      </div>
+
+    </div>
+
+</div>

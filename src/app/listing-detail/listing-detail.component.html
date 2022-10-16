@@ -1,0 +1,33 @@
+
+<div class="container-fluid d-flex flex-wrap justify-content-center">
+    <div
+        *ngFor="let listing of listings; trackBy: trackListingByHotelNo"
+        class="card m-1 m-xl-2">
+        <a href="/view-details/{{ listing[0].hotelBasicInfo.hotelNo }}">
+            <img
+                src="{{ listing[0].hotelBasicInfo.hotelImageUrl }}"
+                class="card-img-top"
+                alt="Random image">
+        </a>
+        <div class="card-body">
+            <h5 class="card-title">
+                <a href="/view-details/{{ listing[0].hotelBasicInfo.hotelNo }}">
+                    {{ listing[0].hotelBasicInfo.hotelName }}
+                </a>
+            </h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            Phone: {{ listing[0].hotelBasicInfo.telephoneNo }}
+          </li>
+          <li class="list-group-item">
+            Address: {{ listing[0].hotelBasicInfo.address1 }},
+            {{ listing[0].hotelBasicInfo.address2 }}
+          </li>
+        </ul>
+
+        <div class="card-footer">
+            <a href="/view-details/{{ listing[0].hotelBasicInfo.hotelNo }}" class="card-link">Details</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,30 @@
+[
+  {
+      "header" : "Listing 1",
+      "title" : "5BR Bungalow in Laguna",
+      "description" : "Some quick example text to build on the card title and make up the bulk of content.",
+      "listing_url" : "/house-and-lot/5br-bungalow-laguna",
+      "listing_image" : "https://picsum.photos/800/600?123123"
+  },
+  {
+      "header" : "Listing 2",
+      "title" : "Studio Condominium in BGC",
+      "description" : "Some quick example text to build on the card title and make up the bulk of content.",
+      "listing_url" : "/condominium/studio-condominium-bgc",
+      "listing_image" : "https://picsum.photos/800/600?1230404"
+  },
+  {
+      "header" : "Listing 3",
+      "title" : "Townhouse Apartment in Makati",
+      "description" : "Some quick example text to build on the card title and make up the bulk of content.",
+      "listing_url" : "/apartments/townhouse-apartment-makati",
+      "listing_image" :  "https://picsum.photos/800/600?12020213123"
+  },
+  {
+      "header" : "Listing 4",
+      "title" : "Dormitories for Rent",
+      "description" : "Some quick example text to build on the card title and make up the bulk of content.",
+      "listing_url" : "/rentals/dormitories-for-rent",
+      "listing_image" :  "https://picsum.photos/800/600?31"
+  }
+]
