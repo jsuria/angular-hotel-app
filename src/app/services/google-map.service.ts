@@ -13,7 +13,7 @@ export class GoogleMapService {
 
   activateMap(): Observable<Boolean> {
 
-      return this.httpClient.jsonp('https://maps.googleapis.com/maps/api/js?key=AIzaSyANhXO30p0BgCQPjyAbDbPNHEhcK_pntrw', 'callback')
+      return this.httpClient.jsonp('https://maps.googleapis.com/maps/api/js?key=AIzaSyAg7HhxHtMxliY8qh_vK-3PgpVyaI8auyM', 'callback')
       .pipe(
         map(() => true),
         catchError(() => of(false)),
